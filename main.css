@@ -11,5 +11,6 @@
 }
 
 .body {
+  color: white;
   background: linear-gradient(90deg, rgba(1,0,5,1) 0%, rgba(14,93,113,1) 17%, rgba(33,83,120,1) 66%, rgba(6,3,62,1) 100%);
-}
+} 
