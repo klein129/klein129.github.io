@@ -163,7 +163,9 @@ async function handleSubmit(event) {
     $('#sbtn').text(res);
     await new Promise(r => setTimeout(r, 2500));
     $('#sbtn').text(prevText);
-    if (res === 'Email bol odoslany') {
+    if (res === 'Email bol odoslaný') {
+      let form = document.getElementById("contactForm");
+      console.log(form);
       document.getElementById("contactForm").reset(); // Resetovanie formulára
     }
   } else {
